@@ -1,6 +1,6 @@
 {
   "name": "skeleton-nestjs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "simple nest skeleton",
   "author": "Abel Jean Pool Seminatio <aseminario@zerveros.com>",
   "private": true,
