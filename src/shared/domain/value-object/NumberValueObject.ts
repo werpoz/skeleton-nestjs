@@ -1,0 +1,15 @@
+/**
+ * This file is part of Zerveros Nest Skeleton.
+ *
+ * (c) Zerveros S.A.C. <dev@zerveros.com>.
+ *
+ * This source file is subject to a proprietary license that is bundled
+ * with this source code in the file LICENSE.
+ */
+import { ValueObject } from './ValueObject';
+
+export abstract class NumberValueObject extends ValueObject<number> {
+  isBiggerThan(other: NumberValueObject): boolean {
+    return this.value > other.value;
+  }
+}
